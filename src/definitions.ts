@@ -1,10 +1,10 @@
 import { PluginListenerHandle } from '@capacitor/core';
 
-declare module '@capacitor/core' {
-  interface PluginRegistry {
-    BranchDeepLinks: BranchDeepLinksPlugin;
-  }
-}
+// declare module '@capacitor/core' {
+//   interface PluginRegistry {
+//     BranchDeepLinks: any;
+//   }
+// }
 
 export interface BranchReferringParams {
   '+clicked_branch_link': boolean;
