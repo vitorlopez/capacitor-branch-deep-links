@@ -13,8 +13,5 @@ Pod::Spec.new do |s|
   s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
   s.ios.deployment_target  = '12.0'
   s.dependency 'Capacitor'
-  s.dependency 'Branch'
+  s.dependency 'Branch', '1.38.0'
   s.swift_version = '5.1'
-  s.frameworks = 'CoreServices', 'SystemConfiguration'
-  s.ios.frameworks = 'WebKit', 'iAd', 'CoreTelephony'
-end
